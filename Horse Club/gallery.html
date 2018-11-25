@@ -1,0 +1,178 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+    <!--CSS Styles-->
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
+    <!--CSS Styles-->
+
+    <!--Google FONTS-->
+    <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic|Oswald:400,300,700|Pacifico' rel='stylesheet' type='text/css'>
+    <!--MENU BAR-->
+
+    <!-- SLIDER SLIDER SLIDER -->
+    <!-- SLIDER SLIDER SLIDER -->
+    <!-- get jQuery from the google apis -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script>	
+    <!-- jQuery KenBurn Slider  -->	
+    <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.plugins.min.js"></script>	
+    <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>		
+    <!-- REVOLUTION BANNER CSS SETTINGS -->
+    <link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" />	
+    <link rel="stylesheet" type="text/css" href="rs-plugin/css/style.css" media="screen" />	
+    <!-- GOOGLE FONTS -->
+    <link href='http://fonts.googleapis.com/css?family=Share' rel='stylesheet' type='text/css' />
+    <!-- SLIDER-END SLIDER-END SLIDER-END -->
+    <!-- SLIDER-END SLIDER-END SLIDER-END -->
+
+    <!-- GALERIJA -->
+    <link rel="stylesheet" href="galerija/example1/colorbox.css" />
+    <!-- GALERIJA -->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="galerija/jquery.colorbox.js"></script>
+        <script>
+          $(document).ready(function(){
+            //Examples of how to assign the Colorbox event to elements
+            $(".group1").colorbox({rel:'group1'});
+            $(".group2").colorbox({rel:'group2', transition:"fade"});
+            $(".group3").colorbox({rel:'group3', transition:"none", width:"75%", height:"75%"});
+            $(".group4").colorbox({rel:'group4', slideshow:true});
+            $(".ajax").colorbox();
+            $(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});
+            $(".vimeo").colorbox({iframe:true, innerWidth:500, innerHeight:409});
+            $(".iframe").colorbox({iframe:true, width:"80%", height:"80%"});
+            $(".inline").colorbox({inline:true, width:"50%"});
+            $(".callbacks").colorbox({
+              onOpen:function(){ alert('onOpen: colorbox is about to open'); },
+              onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
+              onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
+              onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
+              onClosed:function(){ alert('onClosed: colorbox has completely closed'); }
+            });
+
+            $('.non-retina').colorbox({rel:'group5', transition:'none'})
+            $('.retina').colorbox({rel:'group5', transition:'none', retinaImage:true, retinaUrl:true});
+            
+            //Example of preserving a JavaScript event for inline calls.
+            $("#click").click(function(){ 
+              $('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+              return false;
+            });
+          });
+        </script>
+    <!-- GALERIJA -->
+    <!-- GALERIJA -->
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Horse Club | Home Page</title>
+
+</head>
+
+<body>
+    <a href="http://www.google.com"><div class="logo"></div></a>
+	<!-- Wrapper start-->
+	<div class="wrapper">
+
+		
+		<!-- Header Start-->
+        <div class="header">
+                <ul id="nav">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="gallery.html">GALERIJA</a></li>
+                    <li><a href="contact.html">KONTAKT</a></li>
+                </ul>
+        </div>
+        <!-- Header End-->
+
+    	<!--Container Start-->
+    	<div class="container">
+    		<h1>Galerija</h1>
+            <hr />
+
+            <div class="galerija-box">
+                <a class="group1" href="images/horse1.jpg" class="anchor-hover">
+                <img src="images/horse1.jpg" width='280' height='220' />
+            </div>
+
+            <div class="galerija-box">
+                <a class="group1" href="images/horse2.jpg" class="anchor-hover">
+                <img src="images/horse2.jpg" width='280' height='220' />
+            </div>
+
+            <div class="galerija-box">
+                <a class="group1" href="images/horse3.jpg" class="anchor-hover">
+                <img src="images/horse3.jpg" width='280' height='220' />
+            </div>
+
+            <div class="galerija-box">
+                <a class="group1" href="images/horse4.jpg" class="anchor-hover">
+                <img src="images/horse4.jpg" width='280' height='220' />
+            </div>
+
+            <div class="galerija-box">
+                <a class="group1" href="images/horse5.jpg" class="anchor-hover">
+                <img src="images/horse5.jpg" width='280' height='220' />
+            </div>
+
+            <div class="galerija-box">
+                <a class="group1" href="images/horse6.jpg" class="anchor-hover">
+                <img src="images/horse6.jpg" width='280' height='220' />
+            </div>
+
+            <div class="galerija-box">
+                <a class="group1" href="images/horse7.jpg" class="anchor-hover">
+                <img src="images/horse7.jpg" width='280' height='220' />
+            </div>
+
+            <div class="galerija-box">
+                <a class="group1" href="images/horse8.jpg" class="anchor-hover">
+                <img src="images/horse8.jpg" width='280' height='220' />
+            </div>
+
+            <div class="galerija-box">
+                <a class="group1" href="images/horse2.jpg" class="anchor-hover">
+                <img src="images/horse2.jpg" width='280' height='220' />
+            </div>
+
+    	</div>
+    	<!--Container End-->
+
+    	<!---------------------FOOTER ---------------------->
+		<!--Footer Start-->
+        <div class="footer">
+            <!--Footer COL 1st START-->
+            <div class="footer-col">
+                <div class="footer-img">
+                    <img src="images/footer-1.jpg" width='140' height='140'>
+                </div>
+                <h4>About us</h4>
+                <h5>Praesent vestibulum  <br /> molestie aesent olestie</h5>
+                <p>
+                    Praesent vestibulum molestie lacus. Aenean nonuy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                </p>        
+            </div>
+            <!--Footer COL 1st End-->
+
+            <!--Footer COL 2nd START-->
+            <div class="footer-col">
+                <h4>Site Navigation:</h4>
+                <ol>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="contact.html">KONTAKT</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="gallery.html">GALERIJA</a></li>
+                </ol>
+            </div>
+            <!--Footer COL 2nd End-->
+
+        <!--Footer End-->
+    	<!---------------------FOOTER ---------------------->
+
+	</div>
+	<!-- Wrapper end-->
+</body>
+
+	

@@ -1,0 +1,333 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+        <!--CSS Styles-->
+        <link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
+        <!--CSS Styles-->
+
+        <!--Google FONTS-->
+        <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic|Oswald:400,300,700|Pacifico' rel='stylesheet' type='text/css'>
+        <!--MENU BAR-->
+
+        <!-- SLIDER SLIDER SLIDER -->
+        <!-- SLIDER SLIDER SLIDER -->
+        <!-- get jQuery from the google apis -->
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script>	
+        <!-- jQuery KenBurn Slider  -->	
+        <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.plugins.min.js"></script>	
+        <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>		
+        <!-- REVOLUTION BANNER CSS SETTINGS -->
+        <link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" />	
+        <link rel="stylesheet" type="text/css" href="rs-plugin/css/style.css" media="screen" />	
+        <!-- GOOGLE FONTS -->
+        <link href='http://fonts.googleapis.com/css?family=Share' rel='stylesheet' type='text/css' />
+
+        <!-- SLIDER-END SLIDER-END SLIDER-END -->
+        <!--skript i css za dugmice -->
+            <script src="sweetalert-master/dist/sweetalert.min.js"></script> 
+            <link rel="stylesheet" type="text/css" href="sweetalert-master/dist/sweetalert.css"> 
+            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.js"></script> 
+            <script type="text/javascript" src="mojSkript.js"></script> 
+            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.js"></script>
+            <!-- kraj dodatka za dugmice -->
+            
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Horse Club | Home Page</title>
+
+</head>
+
+<body>
+    <a href="index.html"><div class="logo"></div></a>
+	<!-- Wrapper start-->
+	<div class="wrapper">
+
+		<!---------------------HEADER ---------------------->
+		<!-- Header Start-->
+        <div class="header">
+                <ul id="nav">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="gallery.html">GALERIJA</a></li>
+                    <li><a href="contact.html">KONTAKT</a></li>
+                </ul>
+        </div>
+        <!-- Header End-->
+    	<!---------------------HEADER ----------------------> 
+
+		<!---------------------SLIDER ---------------------->
+		<!--Slider Start Slider Start Slider Start Slider Start-->
+        <div class="bannercontainer responsive">                    
+            <div class="banner">
+                <ul>    
+                    <!-- SLIDE 1 -->
+                    <li data-transition="slideleft" data-slotamount="10" data-link="http://www.google.de" data-thumb="images/thumbs/regular_thumb2.jpg"> 
+                    <img src="images/slides/slider-1.jpg" />
+                    </li>
+                    <!-- SLIDE 1 -->
+
+                    <!-- SLIDE 2 -->
+                    <li data-transition="slideleft" data-slotamount="10" data-link="http://www.google.de" data-thumb="images/thumbs/regular_thumb3.jpg"> 
+                    <img src="images/slides/slider-2.jpg" />
+                    </li>
+                    <!-- SLIDE 2 -->
+
+                    <!-- SLIDE 3 -->
+                    <li data-transition="slideleft" data-slotamount="10" data-link="http://www.google.de" data-thumb="images/thumbs/regular_thumb4.jpg"> 
+                    <img src="images/slides/slider-3.jpg" />
+                    </li>
+                    <!-- SLIDE 3 -->
+                </ul>       
+            <div class="tp-bannertimer"></div>                                              
+            </div>                  
+        </div>    
+            
+        <script type="text/javascript">
+                var tpj=jQuery;
+                tpj.noConflict();
+                tpj(document).ready(function() {
+                if (tpj.fn.cssOriginal!=undefined)
+                    tpj.fn.css = tpj.fn.cssOriginal;
+                    tpj('.banner').revolution(
+                        {   
+                            delay:9000,                                             
+                            startheight:350,                            
+                            startwidth:1017,
+                            
+                            hideThumbs:200,
+                            
+                            thumbWidth:100,                         // Thumb With and Height and Amount (only if navigation Tyope set to thumb !)
+                            thumbHeight:50,
+                            thumbAmount:5,
+                            
+                            navigationType:"both",                  //bullet, thumb, none, both     (No Thumbs In FullWidth Version !)
+                            navigationArrows:"nexttobullets",       //nexttobullets, verticalcentered, none
+                            navigationStyle:"round",                //round,square,navbar
+                            
+                            touchenabled:"on",                      // Enable Swipe Function : on/off
+                            onHoverStop:"on",                       // Stop Banner Timet at Hover on Slide on/off
+                            
+                            navOffsetHorizontal:0,
+                            navOffsetVertical:20,
+                            
+                            shadow:1,                               //0 = no Shadow, 1,2,3 = 3 Different Art of Shadows  (No Shadow in Fullwidth Version !)
+                            fullWidth:"off"                         // Turns On or Off the Fullwidth Image Centering in FullWidth Modus
+                        }); 
+                    });
+        </script> 
+        <!--Slider End Slider End Slider End Slider End-->
+    	<!---------------------SLIDER ----------------------> 
+
+    	<!--Container Start-->
+    	<div class="container">
+            <h1>Blog</h1>
+            <hr />
+            Site navigation: <a href="index.html">Home</a> \ <a href="blog.html">Blog</a>
+            <hr />
+
+            <!--Leva strana pocetak-->
+            <div class="col-left">
+
+                <!--Blog #1-->
+                <div class="blog-post">
+                    <div class="blog-post-name">Blog post #1</div>
+                    <div class="blog-post-img">
+                        <img src="images/blog1.jpg" width='200' height='150'>
+                    </div>
+                    
+                    <div class="blog-post-text">
+                        <p>Praesent vestibulum molestie lacus. Aenean nonuy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus.
+                        </p>
+                    </div>
+
+                    <input type='submit' value='More' class="button1">
+                </div>
+                <!--Blog #1-->
+
+                <hr />
+
+                <!--Blog #2-->
+                <div class="blog-post">
+                    <div class="blog-post-name">Blog post #2</div>
+                    <div class="blog-post-img">
+                        <img src="images/blog2.jpg" width='200' height='150'>
+                    </div>
+                    
+                    <div class="blog-post-text">
+                        <p>Praesent vestibulum molestie lacus. Aenean nonuy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus.
+                        </p>
+                    </div>
+
+                    <!-- pocetak koda za dumice -->
+                    <input type="button" class="button1" value="Probaj me" onclick="naKlik()"> 
+                    
+                     
+                    <!-- kraj koda za smajlice -->
+                </div>
+                <!--Blog #2-->
+
+                <hr />
+
+                <!--Blog #3-->
+                <div class="blog-post">
+                    <div class="blog-post-name">Blog post #3</div>
+                    <div class="blog-post-img">
+                        <img src="images/blog3.jpg" width='200' height='150'>
+                    </div>
+                    
+                    <div class="blog-post-text">
+                        <p>Praesent vestibulum molestie lacus. Aenean nonuy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus.
+                        </p>
+                    </div>
+
+                    <input type="button" class="button1" value="Probaj me" onclick="naKlik3()">
+                </div>
+                <!--Blog #3-->
+
+                <hr />
+
+                <!--Blog #4-->
+                <div class="blog-post">
+                    <div class="blog-post-name">Blog post #4</div>
+                    <div class="blog-post-img">
+                        <img src="images/blog4.jpg" width='200' height='150'>
+                    </div>
+                    
+                    <div class="blog-post-text">
+                        <p>Praesent vestibulum molestie lacus. Aenean nonuy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus.
+                        </p>
+                    </div>
+
+                    <input type="button" class="button1" value="Probaj me" onclick="naKlik2()"> 
+                </div>
+                <!--Blog #4-->
+            </div>
+            <!--Leva strana pocetak-->
+
+            <!--Desna strana pocetak-->
+            <div class="col-right">
+                <div class="blog-post-name">Kategorije:</div>
+                    <ul>
+                        <li>Cum sociis natoque penatibus et</li>
+                        <li>Donec vel nulla et est posuere dictum</li>
+                        <li>Magnis dis parturient montes nascetur</li>
+                        <li>Nam congue neque vel metus</li>
+                        <li>Pellentesque congue, velit</li>
+                        <li>Phasellus vel justo ac tortor</li>
+                        <li>Risus quis mollis purus felis vel sapien</li>
+                        <li>Witae sodales mattis purus est eleifend</li>
+                    </ul>
+
+                <hr />
+
+                <!--RECENT POST-->
+                <div class="recent-post-box">
+                    <div class="blog-post-name">Recent posts:</div>
+                    <div class="recent-post-img">
+                        <img src="images/horse3.jpg" width='125' height='150' />
+                    </div>
+                    <div class="recent-post-name">Ime posta</div>
+                    <div class="recent-post-text">
+                        <p>Praesent vestibulum molestie lacus. Aenean nonuy hendrerit mauris. Phasellus porta. 
+                        </p>
+                        <a href="#">Saznaj vise</a>
+
+                    </div>
+                </div>
+                <!--RECENT POST-->
+
+                <hr />
+
+                <!--RECENT POST-->
+                <div class="recent-post-box">
+                    <div class="recent-post-img">
+                        <img src="images/horse4.jpg" width='125' height='150' />
+                    </div>
+                    <div class="recent-post-name">Ime posta</div>
+                    <div class="recent-post-text">
+                        <p>Praesent vestibulum molestie lacus. Aenean nonuy hendrerit mauris. Phasellus porta. 
+                        </p>
+                        <a href="#">Saznaj vise</a>
+
+                    </div>
+                </div>
+                <!--RECENT POST-->
+
+                <!--RECENT POST-->
+                <div class="recent-post-box">
+                    <div class="recent-post-img">
+                        <img src="images/horse6.jpg" width='125' height='150' />
+                    </div>
+                    <div class="recent-post-name">Ime posta</div>
+                    <div class="recent-post-text">
+                        <p>Praesent vestibulum molestie lacus. Aenean nonuy hendrerit mauris. Phasellus porta. 
+                        </p>
+                        <a href="#">Saznaj vise</a>
+
+                    </div>
+                </div>
+                <!--RECENT POST-->
+
+                <!--RECENT POST-->
+                <div class="recent-post-box">
+                    <div class="recent-post-img">
+                        <img src="images/horse2.jpg" width='125' height='150' />
+                    </div>
+                    <div class="recent-post-name">Ime posta</div>
+                    <div class="recent-post-text">
+                        <p>Praesent vestibulum molestie lacus. Aenean nonuy hendrerit mauris. Phasellus porta. 
+                        </p>
+                        <a href="#">Saznaj vise</a>
+
+                    </div>
+                </div>
+                <!--RECENT POST-->
+
+
+
+
+
+
+            </div>
+            <!--Desna strana kraj-->
+
+    	</div>
+    	<!--Container End-->
+
+    	<!---------------------FOOTER ---------------------->
+		<!--Footer Start-->
+        <div class="footer">
+            <!--Footer COL 1st START-->
+            <div class="footer-col">
+                <div class="footer-img">
+                    <img src="images/footer-1.jpg" width='140' height='140'>
+                </div>
+                <h4>About us</h4>
+                <h5>Praesent vestibulum <br />molestie aesent olestie</h5>
+                <p>
+                    Praesent vestibulum molestie lacus. Aenean nonuy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                </p>        
+            </div>
+            <!--Footer COL 1st End-->
+
+            <!--Footer COL 2nd START-->
+            <div class="footer-col">
+                <h4>Site Navigation:</h4>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="contact.html">KONTAKT</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="gallery.html">GALERIJA</a></li>
+                </ul>
+            </div>
+            <!--Footer COL 2nd End-->
+
+        <!--Footer End-->
+    	<!---------------------FOOTER ---------------------->
+
+	</div>
+	<!-- Wrapper end-->
+</body>
+
+	
